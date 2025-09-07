@@ -26,7 +26,7 @@ encoded = base64.b64encode(data).decode()
 page_bg = f"""
 <style>
 [data-testid="stAppViewContainer"] {{
-    background-image: url("data:image/jpeg;base64,{encoded}");
+    background-image: url("data:image/webp;base64,{encoded}");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
