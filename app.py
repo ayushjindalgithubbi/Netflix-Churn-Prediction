@@ -18,7 +18,7 @@ st.set_page_config(
 )
 
 # ----------------- Background Styling -----------------
-image_path = "C:/Users/Ayush Jindal/OneDrive/Desktop/Netflix Churn rate Prediction/netflix2.webp"
+image_path = "netflix2.webp"
 with open(image_path, "rb") as f:
     data = f.read()
 encoded = base64.b64encode(data).decode()
@@ -101,7 +101,7 @@ class FeatureEngineer(BaseEstimator, TransformerMixin):
         return X
 
 # ----------------- Load Model -----------------
-pipeline = joblib.load("C:/Users/Ayush Jindal/OneDrive/Desktop/Netflix Churn rate Prediction/NetflixChurn_pipeline.pkl")
+pipeline = joblib.load("NetflixChurn_pipeline.pkl")
 
 def predict_churn(user_input_df):
     prob = pipeline.predict_proba(user_input_df)[:, 1][0] * 100
