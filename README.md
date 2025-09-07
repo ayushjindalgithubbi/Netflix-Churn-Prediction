@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎬 Netflix Customer Churn Prediction
 
 This project is a **Streamlit web application** that predicts whether a Netflix customer is likely to churn based on user inputs such as age, gender, subscription type, watch hours, region, and more.  
@@ -78,3 +79,7 @@ You can easily deploy this app on **Streamlit Cloud**:
 **Ayush Jindal**  
 📧 jindalayush05@gmail.com  
 🔗 https://www.linkedin.com/in/ayushjindal030/ 
+=======
+# Netflix-Churn-Prediction
+Netflix Churn Prediction System is a Streamlit-based ML app that predicts customer churn using features like watch time, last login, and subscription type. It helps businesses identify at-risk users and take proactive steps to improve retention and customer satisfaction.
+>>>>>>> 175d6128cf98b02e8c523c1267b4fbaf64f02ff9
